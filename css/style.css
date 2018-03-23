@@ -4,6 +4,12 @@
   height: 100px;
 }
 
+.collapse>.navbar-nav>ul>li>a {
+  position: relative;
+  top: 30px;
+  right: 50px;
+}
+
 #home {
   background-color: #000;
 }
