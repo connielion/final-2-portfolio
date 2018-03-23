@@ -19,8 +19,7 @@
 }
 
 .navbar-btn {
-  position: relative;
-  right: 30px;
+  margin-left: 400px;
 }
 .navlinks { /* link styling*/
   font-size: 18px;
