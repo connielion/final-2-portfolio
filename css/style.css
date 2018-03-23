@@ -1,4 +1,9 @@
 .nav-nav {
   background-color: #fff;
   color: #000;
+  height: 100px;
+}
+
+#home {
+  background-color: #000;
 }
