@@ -4,6 +4,10 @@
   height: 100px;
 }
 
+.navbar-toggle {
+  background-color: #000;
+}
+
 .collapse>.navbar-nav>ul>li>a {
   position: relative;
   top: 30px;
