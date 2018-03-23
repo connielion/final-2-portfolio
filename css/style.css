@@ -18,10 +18,8 @@
   margin-right: 30px;
 }
 
-button .navbar-btn {
-  position: relative;
-  bottom: 10px;
-  right: -5px;
+.navbar-btn {
+  margin-top: -5px;
 }
 .navlinks { /* link styling*/
   font-size: 18px;
