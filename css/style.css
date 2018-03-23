@@ -6,16 +6,16 @@
 
 #home {
   background-color: #000;
-  height: 500px;
+  height: 600px;
 }
 
 #about {
-  height: 500px;
+  height: 600px;
   background-color: #26375F;
 }
 
 #contact {
-height: 600px;
+height: 800px;
 }
 
 /* CONTACT FORM CSS*/
