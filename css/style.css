@@ -6,4 +6,14 @@
 
 #home {
   background-color: #000;
+  height: 500px;
+}
+
+#about {
+  height: 500px;
+  background-color: #26375F;
+}
+
+#contact {
+
 }
