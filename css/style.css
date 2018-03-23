@@ -8,9 +8,13 @@
   color: #000;
 }
 
+.collapse {
+  position: relative;
+  top: 30px;
+}
 .navbar-collapse>.navbar-nav>ul>li>a {
   position: relative;
   top: 30px;
   right: 50px;
-  
+
 }
