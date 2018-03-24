@@ -2,6 +2,7 @@
   background-color: #000;
   color: #fff;
   height: 100px;
+  margin-right: 10px;
 }
 
 .navbar-toggle {
@@ -15,6 +16,7 @@
 
 .navbar-collapse {/*NAV BAR LINKS POSITIONING*/
   margin-right: 0px;
+  margin-top:
 }
 
 .navbar-toggle {
