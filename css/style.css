@@ -18,6 +18,14 @@
   margin-right: 30px;
 }
 
+.navbar-toggle {
+  background: #000;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
 .navbar-nav>li>a>.navbar-btn {
   margin-top: -15px;
 }
