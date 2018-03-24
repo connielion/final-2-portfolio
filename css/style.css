@@ -1,17 +1,3 @@
-nav {
-  background-color: #000;
-  color: #fff;
-}
-
-.nav-nav {
-  background-color: #000;
-  color: #fff;
-  height: 100px;
-}
-
-.navbar-toggle {
-  color: #000;
-}
 
 .sitelogo {
   margin-left: 30px;
@@ -22,36 +8,9 @@ nav {
 .navbar-toggle {
   background: #000;
   margin-top: 10px;
+
 }
 
 .icon-bar {
-  background-color: #fff;
-}
-/* TOGGLE BUTTON STYLING ENDS */
-.navbar-nav {
-  text-decoration: none;
-  color: black;
-}
-
-.button-link {
-  color: white;
-  text-decoration: none;
-}
-
-.buttonlink a:hover {
-  text-decoration: none;
-}
-
-.navbar-nav>li>a>.navbar-btn {
-  margin-top: -15px;
-}
-.navlinks { /* link styling*/
-  font-size: 18px;
-  color: #77d8ff;
   background-color: #000;
-  /* font-fam */
-}
-
-.navbar-nav {
-  margin-right: 20px;
 }
