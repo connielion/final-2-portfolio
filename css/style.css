@@ -33,8 +33,12 @@ nav {
   color: black;
 }
 
-.buttonlink {
+.button-link {
   color: white;
+  text-decoration: none;
+}
+
+.buttonlink a:hover {
   text-decoration: none;
 }
 
