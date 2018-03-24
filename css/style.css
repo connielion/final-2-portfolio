@@ -13,7 +13,7 @@
   margin-top: 30px;
 }
 
-
+/* TOGGLE BUTTON STYLING */
 .navbar-toggle {
   background: #000;
   margin-top: 10px;
@@ -21,6 +21,11 @@
 
 .icon-bar {
   background-color: #fff;
+}
+/* TOGGLE BUTTON STYLING ENDS */
+.navbar-nav {
+  text-decoration: none;
+  color: black;
 }
 
 .navbar-nav>li>a>.navbar-btn {
