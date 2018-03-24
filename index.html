@@ -13,10 +13,27 @@
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+  <script>window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
+<!-- FOOTER START -->
   <footer class="container-fluid">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><!-- BACK TO TOP BUTTON -->
     		<div class="row">
           <div class="col-sm-4">
             <div class="footer-links"><!--SITE LINKS -->
@@ -26,17 +43,18 @@
               <a href="#contact" class="pg">Contact</a>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="copy text-center">
               <p>&copy; Connie 2018</p>
             </div>
           </div>
-          <div class="col-sm-4">
-              <div class="social">
+          <div class="col-sm-5">
+              <div class="social"><!-- SOCIAL MEDIA ICONS/PHONE -->
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>
                 <a href="#" class="fa fa-github"></a>
+                <div class="phone strong">Phone: 559-555-5555</div>
               </div>
           </div>
         </div>
