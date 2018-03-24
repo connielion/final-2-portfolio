@@ -18,7 +18,7 @@
   margin-right: 30px;
 }
 
-.navbar-btn {
+.navbar-nav>li>a>.navbar-btn {
   margin-top: -15px;
 }
 .navlinks { /* link styling*/
