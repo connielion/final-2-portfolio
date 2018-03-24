@@ -64,6 +64,7 @@ padding-top: 80px;
   padding-top: 80px;
   background-color: #bdf2ff;
   height: 800px;
+  margin-bottom: 40px;
 }
 
 .jumbotron {
@@ -212,4 +213,3 @@ footer {
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
- 
