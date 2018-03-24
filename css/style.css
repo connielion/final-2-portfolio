@@ -28,7 +28,7 @@ button.navbar-toggle {
   margin-right: 5px;
 }
 
-.navlink:hover {
+.navlink:hover { /* HOVER ZOOM */
   color: #000;
   transform: scale(1.2);
 }
