@@ -24,5 +24,6 @@
 .navlinks { /* link styling*/
   font-size: 18px;
   color: #77d8ff;
+  background-color: #000;
   /* font-fam */
 }
