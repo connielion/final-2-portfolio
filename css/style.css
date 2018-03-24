@@ -6,9 +6,12 @@
 
 /* TOGGLE BUTTON STYLING */
 .navbar-toggle {
-  background: #000;
-  margin-top: 10px;
+border: 1px solid #000;
 
+}
+
+ul>.navbar-right {
+  text-align: center;
 }
 
 .icon-bar {
