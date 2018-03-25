@@ -38,49 +38,58 @@
   </div>
 </nav>
 <!--- nav bar ends -->
-<div class="container slideshow-container">
+<!--HOME -->
+<div id="home" class="container-fluid">
+  <div class="container crs">
+      <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/image1.jpeg" alt="mac" class="pages">
+          </div>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="img/image1.jpeg" alt="Los Angeles" class="slides">
+          <div class="item">
+            <img src="img/image2.jpeg" alt="codes" class="pages">
+          </div>
+
+          <div class="item">
+            <img src="img/image3.jpeg" alt="mobile" class="pages">
+          </div>
+        </div>
+
+
       </div>
-
-      <div class="item">
-        <img src="img/image2.jpeg" alt="Chicago" class="slides">
-      </div>
-
-      <div class="item">
-        <img src="img/image3.jpeg" alt="New york" class="slides">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
-<script>
-$('.carousel').carousel({
-interval: 2000
-})
 
-</script>
-  <!-- Thumbnail images -->
+</div>
+<!--SLIDES-->
+
+
+
+
+
+
+
+<!--ABOUT-->
+<div id="about" class="container-fluid">
+
+</div>
+
+<!--PORTFOLIO-->
+<div id="portfolio" class="container-fluid">
+
+</div>
+<!--CONTACT-->
+<div id="contact" class="container-fluid">
+
+</div>
 
 <!-- footer -->
 <footer>
