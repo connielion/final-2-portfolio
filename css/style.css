@@ -47,7 +47,7 @@ background-color: #fff;
 }
 
 .crs {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 /* HOME STYLES END */
@@ -65,14 +65,14 @@ padding-top: 80px;
 
 #about {
 height: 800px;
-background-color: #000;
+background-color: #DDF3FF;
 color: #fff;
 padding-top: 80px;
 }
 
 #contact {
   padding-top: 80px;
-  background-color: #bdf2ff;
+  background-color: #EEE;
   height: 800px;
 }
 
