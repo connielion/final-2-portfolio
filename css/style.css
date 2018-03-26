@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway');
 
 .navbar {
-  background-color: #0A88D6;
+  background-color: #81d4fa;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: Lora 700;
 }
 
 
@@ -21,11 +22,12 @@ button.navbar-toggle {
 }
 /* NAV LINK */
 .navlink {
-  color: #fff;
+  color: #005cb2;
   border-radius: 8px;
   transition: transform .5s;
   margin-left: 2px;
   margin-right: 5px;
+  font-size: 20px;
 }
 
 .navlink:hover { /* HOVER ZOOM */
@@ -38,16 +40,14 @@ button.navbar-toggle {
 #home {
 padding-top: 80px;
 height: 800px;
-background-color: #fff;
+background-color: #b6ffff;
 }
 
 .carousel {
   max-width: 800px;
+  margin-top: 20px;
 }
 
-.crs {
-  margin-top: 10px;
-}
 
 
 #portfolio {
@@ -71,7 +71,7 @@ padding-top: 80px;
 
 #contact {
   padding-top: 80px;
-  background-color: #EEE;
+  background-color: #b6ffff;
   height: 800px;
 }
 
@@ -93,8 +93,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #2A57DD;
-  color: white;
+  background-color: #ff8e48;
+  color: #000;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -104,6 +104,7 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #122B74;
+  color: #fff;
 }
 
 /* Add a background color and some padding around the form */
@@ -119,7 +120,7 @@ input[type=submit]:hover {
 /* =============FOOTER============*/
 footer {
   height: 100px;
-  background-color: #222;
+  background-color: #005b9f;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -151,7 +152,8 @@ footer {
 }
 
 .copy {
-  padding: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 /* SOCIAL MEDIA BUTTONS */
@@ -159,18 +161,21 @@ footer {
   margin-top: 10px;
   margin-left: 150px;
 }
-.fa {
+/* SM ICON HOVER ZOOM */
+.s {
   padding: 20px;
   font-size: 50px;
   width: 50px;
   border-radius: 8px;
   text-decoration: none;
   margin: 5px 2px;
-
+  transition: transform .5s;
+  border: 1px 1px #fff;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.s:hover {
+    text-decoration: none;
+    transform: scale(1.2);
 }
 
 .fa-facebook {
