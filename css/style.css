@@ -51,15 +51,33 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 
 
 #portfolio {
-  height: 800px;
+  height: 1000px;
   background-color: #002039;
   padding-top: 80px;
+  color: #ddd;
+  font-family: Raleway;
 }
 
-#works {
-height: 800px;
-background-color: #bdf2ff;
-padding-top: 80px;
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+.works {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+.works:hover {
+    box-shadow: 0 0 2px 3px #81d4fa;
 }
 
 #about {
@@ -145,7 +163,6 @@ footer {
 
 .footer-links>a.pg {
     color: #fff;
-
     text-decoration: none;
     font-size: 16px;
 
@@ -179,7 +196,7 @@ footer {
   text-decoration: none;
   margin: 5px 2px;
   transition: transform .5s;
-  border: 1px 1px #fff;
+  border: 1px solid #fff;
 }
 
 .s:hover {
