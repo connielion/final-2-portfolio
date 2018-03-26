@@ -22,7 +22,7 @@ button.navbar-toggle {
 }
 /* NAV LINK */
 .navlink {
-  color: #005cb2;
+  color: #1a237e;
   border-radius: 8px;
   transition: transform .5s;
   margin-left: 2px;
@@ -81,19 +81,30 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 }
 
 #about {
-height: 800px;
+height: 900px;
 background-color: #DDF3FF;
-color: #fff;
-padding-top: 80px;
+color: #062037;
+padding-top: 50px;
+font-family: Comfortaa;
+}
+
+.line {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px dotted #000;
+    margin: 1em 0;
+    padding: 0;
 }
 
 #contact {
-  padding-top: 80px;
+  margin-top: 80px;
   background-color: #005b9f;
-  height: 800px;
+  height: 900px;
   font-family: Comfortaa;
   color: #FFF;
 }
+
 
 
 /* FORM CSS */
@@ -124,17 +135,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #122B74;
-  color: #fff;
+  background-color: #ffd95a;
+  color: #ff8e48;
   tranform: scale(1.5)
 }
 
 /* Add a background color and some padding around the form */
-.container {
-  border-radius: 10px;
-  background-color: #fff;
-  padding: 20px;
-}
+
 
 /* FORM CSS END */
 
@@ -142,7 +149,7 @@ input[type=submit]:hover {
 /* =============FOOTER============*/
 footer {
   height: 100px;
-  background-color: #0084c6;
+  background-color: #00bcd4;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -161,20 +168,18 @@ footer {
 
 
 
-.footer-links>a.pg {
-    color: #fff;
+.pg {
+    color: #1a237e;
     text-decoration: none;
     font-size: 16px;
+    padding: 10px;
 
   }
 
-.pg { /* page link padding */
-  padding: 10px;
-  font-size: 12px;
-  color: #005b9f;
-}
+
 .pg:hover {
-  opacity: 0.7;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .copy {
