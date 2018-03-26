@@ -4,7 +4,7 @@
   background-color: #81d4fa;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: Lora 700;
+  font-family: Cinzel;
 }
 
 
@@ -14,11 +14,11 @@
 }
 /* toggle button */
 span.icon-bar {
-  background-color: #66FCF1;
+  background-color: #fff;
 }
 
 button.navbar-toggle {
-    border: 1px solid #66FCF1;
+    border: 2px solid #005cb2;
 }
 /* NAV LINK */
 .navlink {
@@ -40,7 +40,7 @@ button.navbar-toggle {
 #home {
 padding-top: 80px;
 height: 800px;
-background-color: #b6ffff;
+background-color: /*#b6ffff;*/ #ddf9f9;
 }
 
 .carousel {
@@ -52,7 +52,7 @@ background-color: #b6ffff;
 
 #portfolio {
   height: 800px;
-  background-color: #000;
+  background-color: #002039;
   padding-top: 80px;
 }
 
@@ -71,8 +71,10 @@ padding-top: 80px;
 
 #contact {
   padding-top: 80px;
-  background-color: #b6ffff;
+  background-color: #005b9f;
   height: 800px;
+  font-family: Comfortaa;
+  color: #FFF;
 }
 
 
@@ -99,12 +101,14 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform .5s;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #122B74;
   color: #fff;
+  tranform: scale(1.5)
 }
 
 /* Add a background color and some padding around the form */
@@ -120,19 +124,21 @@ input[type=submit]:hover {
 /* =============FOOTER============*/
 footer {
   height: 100px;
-  background-color: #005b9f;
+  background-color: #0084c6;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
-
+  color: #fff;
+  font-family: Cinzel;
+  font-size: 14px;
 }
 
 .footer-links {
-  font-size: 18px;
+  line-height: 150%;
   margin-left: 80px;
   margin-top: 30px;
+
 }
 
 
@@ -141,18 +147,21 @@ footer {
     color: #fff;
 
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+
   }
 
 .pg { /* page link padding */
   padding: 10px;
+  font-size: 12px;
+  color: #005b9f;
 }
 .pg:hover {
   opacity: 0.7;
 }
 
 .copy {
-  padding-left: 30px;
+  margin-left: 80px;
   padding-top: 30px;
 }
 
