@@ -54,6 +54,8 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 
 .typebtn {
   margin-top: 10px;
+  padding: 5px;
+  border-radius: 12px;
 }
 
 .carousel {
