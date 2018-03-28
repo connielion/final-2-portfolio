@@ -44,27 +44,27 @@ button.navbar-toggle {
 }
 
 
-/* SECTION CSS */
+/* HOME SECTION CSS */
 
-#home {
+.home {
 padding-top: 80px;
 height: 900px;
 background-color: /*#b6ffff;*/ #ddf9f9;
 }
 
-.typebtn {
-  margin-top: 10px;
-  padding: 5px;
-  border-radius: 12px;
+.js {
+  font-family: Comfortaa;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .carousel {
-  max-width: 800px;
+  max-width: 600px;
   margin-top: 20px;
 }
 
-
-#portfolio {
+/* PORTFOLIO PAGE STYLING */
+.pfl {
   height: 1000px;
   background-color: #002039;
   padding-top: 80px;
@@ -115,17 +115,19 @@ background-color: /*#b6ffff;*/ #ddf9f9;
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/* ABOUT PAGE */
 
-#about {
-height: 650px;
+.about {
+height: 750px;
 background-color: #DDF3FF;
 color: #062037;
-padding-top: 80px;
+padding-top: 100px;
 font-family: Comfortaa;
+font-size: 16px;
 }
 
 .pets {
-  height: 150px;
+  max-height: 150px;
   margin-right: 5px;
 }
 
@@ -141,14 +143,19 @@ font-family: Comfortaa;
     padding: 0;
 }
 
-#contact {
+.contactform {
   background-color: #005b9f;
-  height: 740px;
+  height: 700px;
   font-family: Comfortaa;
   color: #FFF;
 }
 
+
 /* FORM CSS */
+.flexform {
+margin-top: 100px;
+
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -165,7 +172,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #ff8e48;
+  background-color: #F7834E;
   color: #000;
   padding: 12px 20px;
   border: none;
@@ -176,7 +183,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #ffd95a;
+  background-color: #F7D74E;
   color: #ff8e48;
   tranform: scale(1.5)
 }
@@ -187,7 +194,7 @@ input[type=submit]:hover {
 
 /* =============FOOTER============*/
 footer {
-  min-height: 100px;
+  min-height: 80px;
   background-color: #00bcd4;
   position: fixed;
   left: 0;
@@ -204,8 +211,6 @@ footer {
   margin-top: 30px;
 
 }
-
-
 
 .pg {
     color: #fff;
@@ -233,14 +238,11 @@ footer {
 }
 /* SM ICON HOVER ZOOM */
 .s {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin: 5px 2px;
   transition: transform .5s;
   border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 2px;
 }
 
 .s:hover {

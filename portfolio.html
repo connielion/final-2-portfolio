@@ -18,8 +18,8 @@
 <script src="js/jQueryfunctions.js"></script>
 
 </head>
-<body onload="typeWriter()">
-  <!-- JAVASCRIPT EVENT: onLoad="function_name"-->
+<body>
+
 <!--NAV BAR START-->
 
 <nav class="navbar navbar-fixed-top">
@@ -45,43 +45,32 @@
   </div>
 </nav>
 <!--- nav bar ends -->
-<!--HOME PAGE START-->
-<div class="container-fluid home">
-      <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="img/image1.jpeg" alt="mac" class="pages">
-          </div>
-
-          <div class="item">
-            <img src="img/image2.jpeg" alt="codes" class="pages">
-          </div>
-
-          <div class="item">
-            <img src="img/image3.jpeg" alt="mobile" class="pages">
-          </div>
-        </div>
+<!--PORTFOLIO PAGE START-->
+<div class="container-fluid pfl">
+  <h1 class="portfolio text-center">Portfolio</h1>
+  <hr>
+  <div class="row col-container">
+    <div class="col-sm-4 col">
+      <h2>Pet Store</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
+          <a target="_blank" href="img/petstore-home.png">
+            <img src="img/petstore.png" alt="petstore homepage" class="works img-thumbnail">
+          </a>
+    </div>
 
 
-      </div>
-        <div class="row">
-          <div class="col-sm-12 intro">
+    <div class="col-sm-4 col">
 
-            <h1 id="typing" class="text-center js"></h1><!--TYPE WRITTER JS FUNCTION-->
-          </div>
-        </div>
+      <h2>Restaurant</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
+          <a target="_blank" href="img/petstore-home.png">
+            <img src="img/restaurante.png" alt="restaurant homepage" class="works img-thumbnail">
+          </a>
+    </div>
+  </div>
 </div>
 
-
-<!-- footer START -->
 <footer class="container-fluid">
   <!-- BACK TO TOP BUTTON -->
       <div class="row">
@@ -114,5 +103,4 @@
       </div>
 </footer>
 </body>
-
 </html>
