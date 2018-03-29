@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <title>CL-Portfolio</title>
   <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -38,7 +39,15 @@
           <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
           <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
           <li><a href="contact.html" class="navlink" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Contact</i></a></li>
-        </ul>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Follow Me<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="#" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
+              <li><a href="#" class="navlink"><i class="fa fa-twitter-square fa-md" aria-hidden="true"></i> Twitter</a></li>
+              <li><a href="#" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
+            </ul><!--NAVBAR DROP-DOWN ENDS-->
+          </li>
+      </ul><!--NAV BAR LIST ENDS-->
       </div>
     </div>
   </div>
@@ -46,6 +55,12 @@
 <!--- nav bar ends -->
 <!--HOME PAGE START-->
 <div class="container-fluid home">
+  <div class="row">
+    <div class="col-sm-12 intro">
+      <h1 id="typing" class="text-center js" onclick="this.innerHTML = '...Enjoy!'"></h1><!--TYPE WRITTER JS FUNCTION-->
+    </div>
+  </div>
+  <!--CAROUSEL START -->
       <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -68,14 +83,7 @@
             <img src="img/image3.jpeg" alt="mobile" class="pages">
           </div>
         </div>
-
-
-      </div>
-        <div class="row">
-          <div class="col-sm-12 intro">
-            <h1 id="typing" class="text-center js" onclick="this.innerHTML = 'Enjoy!'"></h1><!--TYPE WRITTER JS FUNCTION-->
-          </div>
-        </div>
+      </div><!-- END CAROUSEL -->
 </div>
 
 

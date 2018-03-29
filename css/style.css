@@ -57,8 +57,9 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 
 .js {
   font-family: Comfortaa;
-  background-color: white;
+  background-color: #22283D;
   border-radius: 8px;
+  color: #D0D8E0;
 }
 
 .carousel {
@@ -104,7 +105,7 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 
 
 
-@keyframes shake {
+@keyframes shake { /* shakes portfolio images */
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
     20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -307,8 +308,11 @@ footer {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-/* change color of body bg-color */
+/* change color of body bg-color/btn color for ABOUT PAGE */
 @media only screen and (max-width: 600px) {
+    footer {
+      visibility: hidden;
+    }
     .about {
         background-color: #000;
         color: #ddd;

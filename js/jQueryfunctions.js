@@ -8,7 +8,7 @@ $(document).ready(function(){
 
             //HOME PAGE TYPEWRITER FUNCTION-->
 var i = 0;
-var txt = "Hi, it's Connie. OMG! This function is working! Anyways...This is my portfolio website. Do you like that carousel? Click this text after reading.";
+var txt = "Hi, it's Connie. OMG! I got this to work! Anyways...This is my portfolio website. I know looks boring right now. How do you like that carousel? ......Click this body of text after reading.";
 var speed = 90;
 
 function typeWriter() {
@@ -28,6 +28,9 @@ $(document).ready(function () {
   $("#typing").click(function(){
       $("#typing").slideDown(1000).hide(2000);/* SLIDE DOWN/HIDE ON CLICK */
   })
+  $("#typing").click(function(){
+        $("#typing").stop();
+    });
 })
   $(".navlink").click(function(){
     $(".navbar-toggle").hide();    /*HIDE MENU AFTER CLICKING LINK */
