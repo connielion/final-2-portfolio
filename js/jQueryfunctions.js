@@ -8,7 +8,7 @@ $(document).ready(function(){
 
             //HOME PAGE TYPEWRITER FUNCTION-->
 var i = 0;
-var txt = 'This is my portfolio website.';
+var txt = "Hi, it's Connie. OMG! This function is working! Anyways...This is my portfolio website. Click this text after reading.";
 var speed = 90;
 
 function typeWriter() {
@@ -19,12 +19,19 @@ function typeWriter() {
   }
 }
 
-//Click/fade
 
-$(document).click(function(){
-    $("#typing").slideDown(1000).hide(1000);
+
+
+//Click/fade and CLOSE NAVBAR-TOGGLE MENU AFTER Click
+/*2 selectors(classes, 1 for homepage container-fluid, and other for toggle menu links)*/
+$(document).ready(function () {
+  $("#typing").click(function(){
+      $("#typing").slideDown(1000).hide(2000);/* SLIDE DOWN/HIDE ON CLICK */
+  })
 })
-
+  $(".navlink").click(function(){
+    $(".navbar-toggle").hide();    /*HIDE MENU AFTER CLICKING LINK */
+})
 
 
 //SCROLL BACK TO TOP BUTTON JAVASCRIPT-->
