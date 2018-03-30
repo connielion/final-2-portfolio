@@ -8,7 +8,7 @@ $(document).ready(function(){
 
             //HOME PAGE TYPEWRITER FUNCTION-->
 var i = 0;
-var txt = "Hi, it's Connie. OMG! I got this to work! Anyways...This is my portfolio website. I know looks boring right now. How do you like that carousel? ......Click this body of text after reading.";
+var txt = "Hi, it's Connie. Welcome to my portfolio website. I know looks boring right now. How do you like that carousel? ...Lovely, right?...Click this body of text after reading.";
 var speed = 90;
 
 function typeWriter() {
