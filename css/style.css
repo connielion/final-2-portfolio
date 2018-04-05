@@ -76,7 +76,7 @@ button .btn-default {
 .home {
 padding-top: 80px;
 height: 900px;
-background-color: /*#b6ffff;*/ #ddf9f9;
+background: linear-gradient(#00dcee, #002039);
 }
 
 
