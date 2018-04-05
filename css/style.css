@@ -151,11 +151,12 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 .about {
 height: 840px;
 padding-left: 20px;
-background: repeating-linear-gradient( #DDF3FF, #fff);
-color: #c6e2ff;
+background: repeating-linear-gradient( #DDF3FF, #f6b9aa);
+
+color: #062037;
 padding-top: 100px;
 font-family: Comfortaa;
-font-size: 26px;
+font-size: 16px;
 }
 
 .skills {
