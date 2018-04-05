@@ -55,6 +55,7 @@ height: 900px;
 background-color: /*#b6ffff;*/ #ddf9f9;
 }
 
+
 .js {
   font-family: Comfortaa;
   background-color: #22283D;
@@ -62,9 +63,16 @@ background-color: /*#b6ffff;*/ #ddf9f9;
   color: #D0D8E0;
 }
 
+.btn-primary {
+  margin: 5px;
+  border-radius: 4px;
+}
+
+
+
 .carousel {
   max-width: 600px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* PORTFOLIO PAGE STYLING */
@@ -75,8 +83,6 @@ background-color: /*#b6ffff;*/ #ddf9f9;
   color: #ddd;
   font-family: Raleway;
 }
-
-
 .col-container {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
@@ -86,15 +92,11 @@ background-color: /*#b6ffff;*/ #ddf9f9;
     margin: 10px;
     display: table-cell; /* Make elements inside the container behave like table cells */
 }
-
-
 .works {
-    border: 2px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 250px;
 }
-
 .works:hover {
     box-shadow: 0 0 2px 3px #81d4fa;
     /* shake animation last for 0.8 seconds */
