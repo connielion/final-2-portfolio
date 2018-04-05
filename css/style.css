@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway');
 
 
-
-
 .navbar {
 
   padding-top: 8px;
@@ -76,7 +74,7 @@ button .btn-default {
 .home {
 padding-top: 80px;
 height: 900px;
-background: linear-gradient(#00dcee, #002039);
+background: linear-gradient(#00dcee, #ccc);
 }
 
 
