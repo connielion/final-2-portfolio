@@ -51,6 +51,9 @@ button.navbar-toggle {
   transition: transform .3s;
 }
 
+.jumbotron {
+  color: black;
+}
 
 .btn:hover {
   transform: scale(1.2);
