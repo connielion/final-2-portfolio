@@ -89,6 +89,8 @@ background: linear-gradient(#00dcee, #002039);
 
 .btn-primary {
   margin: 5px;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 4px;
 }
 
