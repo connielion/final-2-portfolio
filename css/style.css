@@ -46,6 +46,15 @@ button.navbar-toggle {
   transform: scale(1.2);
 }
 
+.btn {
+  border-radius: 8px;
+  transition: transform .3s;
+}
+
+
+.btn:hover {
+  transform: scale(1.2);
+}
 
 /* HOME SECTION CSS */
 
