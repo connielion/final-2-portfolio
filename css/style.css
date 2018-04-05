@@ -151,7 +151,7 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 .about {
 height: 840px;
 padding-left: 20px;
-background: repeating-linear-gradient( #DDF3FF, #f6b9aa);
+background: linear-gradient(#002039,#00dcee);
 
 color: #062037;
 padding-top: 100px;
