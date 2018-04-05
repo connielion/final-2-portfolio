@@ -4,11 +4,11 @@
 
 
 .navbar {
-  background-color: #81d4fa;
+
   padding-top: 8px;
   padding-bottom: 6px;
   font-family: Cinzel;
-
+  background: linear-gradient(to right, #2cf0ad, #00bcd4);
 }
 
 
@@ -20,6 +20,15 @@
 .logo { /*LOGO POSITIONING */
   position: absolute;
   top: 0px;
+}
+
+.dropdown {
+  border-radius: 8px;
+
+}
+
+.dropdown a {
+  color: black;
 }
 
 
@@ -46,14 +55,14 @@ button.navbar-toggle {
   transform: scale(1.2);
 }
 
-.pbtn {
+button .btn-default {
   border-radius: 8px;
   transition: transform .3s;
   text-decoration: none;
   color: black;
 }
 
-.jumbotron {
+.pjumbo {
   color: black;
 }
 
@@ -92,12 +101,14 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 /* PORTFOLIO PAGE STYLING */
 .pfl {
   height: 1200px;
-  background-color: #002039;
+  background: linear-gradient(#002039,#00dcee);
   padding-top: 80px;
+
   color: #ddd;
   font-family: Raleway;
 }
 .col-container {
+    padding-left: 50px;
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
 }
@@ -139,11 +150,17 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 
 .about {
 height: 840px;
-background-color: #DDF3FF;
+padding-left: 20px;
+background: repeating-linear-gradient( #DDF3FF, #fff);
+
 color: #062037;
 padding-top: 100px;
 font-family: Comfortaa;
 font-size: 16px;
+}
+
+.skills {
+  margin-left: 50px;
 }
 
 .pets {
@@ -225,7 +242,7 @@ input[type=submit]:hover {
 /* =============FOOTER============*/
 footer {
   min-height: 80px;
-  background-color: #00bcd4;
+
   position: fixed;
   left: 0;
   bottom: 0;
@@ -233,6 +250,7 @@ footer {
   color: #fff;
   font-family: Cinzel;
   font-size: 14px;
+  background: linear-gradient(to right, #2cf0ad, #00bcd4);
 }
 
 .footer-links {

@@ -8,7 +8,7 @@ $(document).ready(function(){
 
             //HOME PAGE TYPEWRITER FUNCTION-->
 var i = 0;
-var txt = "Hi, it's Connie. Welcome to my portfolio website. I know looks boring right now. How do you like that carousel? ...Lovely, right?...Click this body of text after reading.";
+var txt = "Hi everyone, it's Connie. Welcome to my portfolio website. I know looks boring right now, so...sorry. Anyways, how do you like that carousel? ...Lovely, right?...Click this body of text after reading.";
 var speed = 90;
 
 function typeWriter() {
@@ -22,8 +22,7 @@ function typeWriter() {
 
 
 
-//Click/fade and CLOSE NAVBAR-TOGGLE MENU AFTER Click
-/*2 selectors(classes, 1 for homepage container-fluid, and other for toggle menu links)*/
+/*Click/fade and CLOSE NAVBAR-TOGGLE MENU AFTER Click*/
 $(document).ready(function () {
   $("#typing").click(function(){
       $("#typing").slideDown(1000).hide(2000);/* SLIDE DOWN/HIDE ON CLICK */
