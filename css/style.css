@@ -46,7 +46,7 @@ button.navbar-toggle {
   transform: scale(1.2);
 }
 
-.btn {
+.pbtn {
   border-radius: 8px;
   transition: transform .3s;
 }
