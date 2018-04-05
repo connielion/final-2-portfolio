@@ -49,6 +49,8 @@ button.navbar-toggle {
 .pbtn {
   border-radius: 8px;
   transition: transform .3s;
+  text-decoration: none;
+  color: black;
 }
 
 .jumbotron {
