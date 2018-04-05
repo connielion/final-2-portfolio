@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 
 
-            //HOME PAGE TYPEWRITER FUNCTION-->
+            //HOME PAGE TYPEWRITER FUNCTION//
 var i = 0;
 var txt = "Hi everyone, it's Connie. Welcome to my portfolio website. I know looks boring right now, so...sorry. Anyways, how do you like that carousel? ...Lovely, right?...Click this body of text after reading.";
 var speed = 90;
