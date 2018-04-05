@@ -67,6 +67,7 @@ button .btn-default {
 }
 
 .btn:hover {
+  white-space: normal;
   transform: scale(1.2);
 }
 
@@ -152,7 +153,7 @@ background-color: /*#b6ffff;*/ #ddf9f9;
 .about {
 height: 840px;
 padding-left: 20px;
-background: linear-gradient(#002039,#00dcee);
+background: linear-gradient(#00dcee, #002039);
 color: #000;
 padding-top: 100px;
 font-family: Comfortaa;
