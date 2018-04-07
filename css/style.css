@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway');
 
 
+.black-text {
+  color: #000;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px #ccc;
+}
+
+
 .navbar {
 
   padding-top: 8px;
@@ -74,7 +83,7 @@ button .btn-default {
 .home {
 padding-top: 80px;
 height: 900px;
-background: linear-gradient(#00dcee, #C6E2FF);
+
 }
 
 
@@ -89,9 +98,16 @@ background: linear-gradient(#00dcee, #C6E2FF);
   margin: 25px;
   padding: 10px;
   font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+
   border-radius: 8px;
 }
 
+.hbtn a {
+  color: #fff;
+    text-decoration: none;
+}
 
 
 .carousel {
@@ -102,10 +118,10 @@ background: linear-gradient(#00dcee, #C6E2FF);
 /* PORTFOLIO PAGE STYLING */
 .pfl {
   height: 1200px;
-  background: linear-gradient(#002039,#00dcee);
+
   padding-top: 80px;
 
-  color: #ddd;
+  color: #878685;
   font-family: Raleway;
 }
 .col-container {
@@ -153,8 +169,8 @@ background: linear-gradient(#00dcee, #C6E2FF);
 .about {
 height: 840px;
 padding-left: 10px;
-background: linear-gradient(#00dcee, #002039);
-color: #000;
+background-color: #fff;
+color: #878685;
 padding-top: 100px;
 font-family: Comfortaa;
 font-size: 16px;
@@ -192,11 +208,12 @@ font-size: 16px;
     padding: 0;
 }
 
+/* CONTACT FORM*/
 .contactform {
-  background-color: #005b9f;
-  height: 800px;
+  background-color: #fff;
+  height: 1400px;
   font-family: Comfortaa;
-  color: #FFF;
+  color: #878685;
 }
 
 
@@ -220,8 +237,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #F7834E;
-  color: #000;
+
+  color: #fff;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -231,12 +248,20 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #F7D74E;
-  color: #ff8e48;
+
+
   tranform: scale(1.5)
 }
 
 /* Add a background color and some padding around the form */
+.times {
+  font-size: 20px;
+  font-family: Comfortaa,cursive;
+  list-style: none;
+}
+
+
+
 
 /* FORM CSS END */
 
@@ -254,36 +279,18 @@ footer {
   background: linear-gradient(to right, #2cf0ad, #00bcd4);
 }
 
-.footer-links {
-  line-height: 150%;
-  margin-left: 20px;
-  margin-top: 30px;
-
-}
-
-.pg {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px;
-
-  }
-
-
-.pg:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
 
 .copy {
-  margin-left: 80px;
-  padding-top: 30px;
+
+  padding-top: 10px;
 }
 
 /* SOCIAL MEDIA BUTTONS */
 .social {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
-  margin-left: 150px;
+
 }
 /* SM ICON HOVER ZOOM */
 .s {
