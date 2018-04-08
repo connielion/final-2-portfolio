@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway');
 
 
+.border-rad {
+  border-radius: 60%;
+}
+
+
+
 .black-text {
   color: #000;
 }
@@ -49,7 +55,7 @@ button.navbar-toggle {
 }
 /* NAV LINK */
 .navlink {
-  color: #1a237e;
+  color: #fff;
   border-radius: 8px;
   transition: transform .5s;
   margin-right: 20px;
@@ -82,7 +88,7 @@ button .btn-default {
 
 .home {
 padding-top: 80px;
-height: 900px;
+height: 800px;
 
 }
 
@@ -167,7 +173,7 @@ height: 900px;
 /* ABOUT PAGE --------------------------*/
 
 .about {
-height: 840px;
+height: 900px;
 padding-left: 10px;
 background-color: #fff;
 color: #878685;
@@ -268,10 +274,6 @@ input[type=submit]:hover {
 /* =============FOOTER============*/
 footer {
   min-height: 80px;
-
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   color: #1a237e;
   font-family: Cinzel;
@@ -281,7 +283,6 @@ footer {
 
 
 .copy {
-
   padding-top: 10px;
 }
 
