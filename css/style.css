@@ -35,9 +35,10 @@
   top: 0px;
 }
 
-.dropdown {
+.dropdown-toggle {
   border-radius: 8px;
-
+  background-color: #fff;
+  margin-right: 5px;
 }
 
 .dropdown a {
@@ -119,6 +120,14 @@ height: 800px;
 .carousel {
   max-width: 600px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.carousel-caption {
+  background-color: #ccc;
+  height: 80px;
 }
 
 /* PORTFOLIO PAGE STYLING */
