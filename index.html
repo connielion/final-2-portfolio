@@ -34,14 +34,18 @@
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-        <div class="navbar-brand">
-          <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-        </div>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <!-- TOGGLE BUTTON-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       </button>
+
+  <!--LOGO-->
+        <div class="navbar-brand">
+          <a href="index.html"><img src="img/logo.png" alt="logo" class="logo img-responsive"></a>
+        </div>
+
       <!--<a class="navbar-brand" href="#home"><img src="img/logo1.png" alt="logo" class="logo img-responsive"></a>-->
     </div>
     <div>
@@ -50,7 +54,7 @@
           <li><a href="index.html" class="navlink active" data-toggle="tooltip" title="HOME SWEET HOME!" data-placement="bottom"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
           <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
           <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
-          <li><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Hire Me!</i></a></li>
+          <li class = "pad"><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Contact</i></a></li>
           <!--social media icons-->
           <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i></a></li>
           <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i></a></li>
@@ -114,8 +118,8 @@
       </div> END CAROUSEL -->
       <div class="row">
         <div class="col-sm-12"><!--HOME BUTTON START-->
-          <button class="btn-default hbtn center-block"><a href="portfolio.html" class="pg">View My Portfolio</a></button>
-          
+          <button class="btn-default hbtn center-block"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><a href="portfolio.html" class="pg">View My Portfolio</a><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></button>
+
         </div>
       </div>
 </div><!--end container-fluid-->
@@ -132,7 +136,6 @@
                 <!-- SOCIAL MEDIA ICONS/PHONE -->
                 <a href="https://www.facebook.com/" class="fa fa-facebook fa-fw fa-2x s"></a>
                 <a href="https://about.twitter.com/" class="fa fa-twitter fa-fw fa-2x s"></a>
-                <a href="" class="fa fa-linkedin fa-fw fa-2x s"></a>
                 <a href="https://github.com/connielion" class="fa fa-github fa-fw fa-2x s"></a>
 
 
@@ -159,7 +162,7 @@ $(document).ready(function(){
 
             //HOME PAGE TYPEWRITER FUNCTION//
 var i = 0;
-var txt = "Welcome to my portfolio website. I am trying to Git good at web development. Anyways, I know jQuery is evil."
+var txt = "Hi, I am Connie. Welcome to my portfolio website. I am trying to Git good at web development. Git it?"
 var speed = 90;
 
 function typeWriter() {

@@ -38,17 +38,18 @@
     <div>
       <div class="collapse navbar-collapse navbar-right" id="myNavbar">
         <ul class="nav navbar-nav text-center">
-          <li><a href="index.html" class="navlink active"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
-          <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
-          <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
-          <li><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Hire me!</i></a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-plus"></i>Follow Me<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
-              <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
-              <li><a href="https://github.com/connielion" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
-            </ul><!--NAVBAR DROP-DOWN ENDS-->
-          </li>
+            <li><a href="index.html" class="navlink active" data-toggle="tooltip" title="HOME SWEET HOME!" data-placement="bottom"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+            <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
+            <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
+            <li class = "pad"><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Hire me!</i></a></li>
+
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-plus"></i>Follow Me<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/connielion" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
+              </ul><!--NAVBAR DROP-DOWN ENDS-->
+            </li>
         </ul>
       </div>
     </div>
@@ -57,27 +58,43 @@
 <!--- nav bar ends -->
 
 <div class="container-fluid about">
-  <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
-        <h1 class="text-shadow text-center">Hello! Wanna hear my story...?</h1>
+  <div class="row about-flex">
+      <div class="col-sm-4 col-sm-offset-1">
+          <img src="img/me2.jpg" alt="Me at Grand Canyon" class="img-responsive about-img">
+      </div>
+
+
+      <div class="col-sm-5 about-text col-sm-offset-1">
+        <h1 class="strong text-center">About Connie</h1>
         <hr>
-        <p class="story strong Raleway">I was still in high school when I started playing with CSS attributes on DeviantArt journals without knowing that CSS is a language used web styling. A few years later, I obtained a bachelor's degree in biology at UC Riverside, but later learned that it isn't for me. I decided on a career change and started taking classes at Geekwise Academy.  A few weeks later, I was about to make a website in HTML 5, CSS, and Bootstrap 3(you're looking at that website right now) with passionate teachers/developers at a local IT company. Currently, I am trying to work on my ES6 skills, and eventually learn Node.js and Angular, React and Ruby on Rails. On the side, I am working with a partner on WordPress projects.</p>
+        <p class="story1 strong Raleway">I am a student at Geekwise Academy. I started learning HTML and CSS seriously in early 2018, though I played with CSS on my own when I was in high school.
+          <br>
+          <br>
+
+          After graduating from college last year, I kept on exploring my options and decided to take classes at Geekwise Academy.  Weeks later, I was able to make a website in HTML5, CSS3, and Bootstrap 4(you're looking at that website right now).
+          <br>
+          <br>
+          Currently, I am working on my Javascript skills, and aim to learn some JS frameworks.</p>
         <br>
-          <ul>
-            <li>I love to travel and learn languages(foreign and programming). I speak 3 languages daily.</li>
-            <li>I love to eat, play with my pets, listen to music, and code.</li>
+        <hr>
+          <ul class="Raleway">
+            <li>I love to travel and learn languages, BOTH foreign & programming. Juggling 4 in daily life.</li>
+              <br>
+            <li>I learned C++ in college.</li>
           </ul>
       </div>
-  </div><!--END ROW 1-->
-  <div class="row">
-    <div class="col-xs-6 skills">
 
+    </div><!--end row-->
+
+</div><!--END CONTAINER FLUID-->
+  <div class="row skill-row">
+    <div class="col-sm-5">
       <h1 id="abouttype" class="text-center js"></h1>
       <div id="accordion">
         <div class="card">
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
-              <button class="btn btn-success skillsbtn center-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <button class="btn btn-info skillsbtn center-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 <span class="accordion-text text-uppercase font-weight-bold">Click this accordion.</span>
               </button>
             </h5>
@@ -107,11 +124,11 @@
         </div>
       </div>
     </div>
-      </div>
     </div>
-
+    </div>
   </div><!-- END OF COL-->
 </div><!--end of row-->
+
 </div><!--end container fluid-->
 
 

@@ -37,7 +37,7 @@ $(document).ready(function () {
 
 
 //SCROLL BACK TO TOP BUTTON JAVASCRIPT-->
-    window.onscroll = function() {scrollFunction()};
+/*    window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.getElementById("myBtn").style.display = "block";
@@ -49,7 +49,7 @@ $(document).ready(function () {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-
+*/
     /* Open */
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
