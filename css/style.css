@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway:500');
 
 
-.border-rad {
-  border-radius: 60%;
+
+.Raleway {
+  font-family: 'Raleway', sans-serif;
 }
-
-
 
 .black-text {
   color: #000;
@@ -17,22 +16,20 @@
 
 
 .navbar {
-
+  min-height: 80px;
   padding-top: 8px;
   padding-bottom: 6px;
-  font-family: Cinzel;
   background: linear-gradient(to right, #2cf0ad, #00bcd4);
+  padding-left: 250px;
 }
 
 
-.navbar-brand {
-  margin-left: 50px;
-  color: #fff;
-}
 
-.logo { /*LOGO POSITIONING */
-  position: absolute;
-  top: 0px;
+.navbar-brand {/*LOGO POSITIONING */
+  position:absolute;
+  top: -80px;
+  left: 50px;
+
 }
 
 .dropdown-toggle {
@@ -45,29 +42,40 @@
   color: black;
 }
 
+.nav {
+  padding-top: 10px;
+}
 
 /* toggle button */
 span.icon-bar {
   background-color: #fff;
 }
 
-button.navbar-toggle {
-    border: 2px solid #005cb2;
+button.navbar-toggle {  /*TOGGLE  BUTTON STYLES*/
+    border: 2px solid #fff;
 }
+
+
+
 /* NAV LINK */
 .navlink {
   color: #fff;
   border-radius: 8px;
+  padding-top: 10px;
   transition: transform .5s;
-  margin-right: 20px;
   font-size: 20px;
+  font-family: 'Comfortaa',cursive;
+  background-color: ##00bcd4;
+
 }
 
 
 .navlink:hover { /* HOVER ZOOM */
   color: #000;
+  background-color: #000;
   transform: scale(1.2);
 }
+
 
 button .btn-default {
   border-radius: 8px;
@@ -89,13 +97,23 @@ button .btn-default {
 
 .home {
 padding-top: 80px;
-height: 800px;
+height: 850px;
+background: linear-gradient(to right, #2cf0ad, #00bcd4);
 
+}
+
+.jumbotext {
+  font-family: 'Lora', cursive;
+  text-shadow: 3px 2px #6f6f6f;
+  text-decoration-line: underline;
+  color: #fff;
+  font-size: 50px;
+  padding-top: 50px;
 }
 
 
 .js {
-  font-family: Comfortaa;
+  font-family: 'Raleway';
   background-color: #22283D;
   border-radius: 8px;
   color: #D0D8E0;
@@ -103,22 +121,23 @@ height: 800px;
 
 .hbtn {
   margin: 25px;
-  padding: 10px;
-  font-size: 16px;
-  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  color: #000;
   text-decoration: none;
-
+  font-family: 'Raleway',sans-serif;
   border-radius: 8px;
 }
 
 .hbtn a {
-  color: #fff;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 
 .carousel {
-  max-width: 600px;
+
+  max-height: 500px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -126,33 +145,53 @@ height: 800px;
 
 
 .carousel-caption {
-  background-color: #ccc;
-  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-shadow: 2px 2px #ccc;
 }
 
 /* PORTFOLIO PAGE STYLING */
 .pfl {
-  height: 1200px;
-
+  height: 1000px;
   padding-top: 80px;
-
   color: #878685;
   font-family: Raleway;
 }
-.col-container {
-    padding-left: 50px;
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
+
+.pfl h2 {
+font-size: 24px;
 }
 
-.col {
-    margin: 10px;
-    display: table-cell; /* Make elements inside the container behave like table cells */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
+
+.pbtn {
+padding: 5px;
+border-radius: 4px;
+font-family: 'Raleway', sans-serif;
+background-color: #000;
+}
+
+.pbtn a {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.pbtn a:hover {
+text-decoration: none;
+color: #fff;
+}
+
+
 .works {
     border-radius: 4px;
     padding: 5px;
-    width: 250px;
+
 }
 
 .works:hover {
@@ -195,20 +234,13 @@ font-size: 16px;
   margin-left: 50px;
 }
 
-.pets {
-  max-height: 180px;
-  margin-right: 5px;
-}
-
-.flex-img {
-  display: flex;
-  align-content: center;
-  flex-wrap: nowrap;  /* ALL IMG ON ONE LINE */
-}
-
 .accordion-text {
   color: #fff;
+  font-weight: bolder;
+}
 
+.skillsbtn:hover {
+  transform: none;
 }
 
 .list {
@@ -231,6 +263,9 @@ font-size: 16px;
   color: #878685;
 }
 
+.req {
+  color: red;
+}
 
 /* FORM CSS */
 .flexform {
@@ -361,7 +396,7 @@ footer {
 }
 
 /* change color of body bg-color/btn color for ABOUT PAGE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     footer {
       visibility: hidden;
     }
@@ -372,5 +407,11 @@ footer {
     .skillsbtn {
       color: white;
     }
-
+    .navlink {
+      transition: none;
+      min-width: 300px;
+    }
+    .navlinks:hover {
+      transform: none;
+    }
 }

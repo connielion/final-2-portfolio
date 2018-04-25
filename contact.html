@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <title>CL-Portfolio</title>
 <!-- scripts -->
@@ -25,6 +25,9 @@
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+      <div class="navbar-brand">
+        <img src="img/logo.png" alt="logo" class="logo">
+      </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -34,17 +37,16 @@
     </div>
     <div>
       <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-        <ul class="nav navbar-nav text-center">
+        <ul class="nav navbar-nav ">
           <li><a href="index.html" class="navlink active"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
           <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
           <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
-          <li><a href="contact.html" class="navlink" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Contact</i></a></li>
+          <li><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Hire me!</i></a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-plus"></i>Follow Me<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-twitter-square fa-md" aria-hidden="true"></i> Twitter</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
+              <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
+              <li><a href="https://github.com/connielion" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
             </ul><!--NAVBAR DROP-DOWN ENDS-->
           </li>
         </ul>
@@ -57,27 +59,28 @@
 <div class="container-fluid contactform">
   <div class="row">
     <div class="col-sm-12 flexform">
-      <h3 class="text-center text-shadow black-text">Contact Me</h3>
+      <h3 class="text-center text-shadow">Contact Me</h3>
         <form action="action_page.php">
-          <label for="fname">First Name</label>
+          <label for="fname">First Name <span class="req"> *</span></label>
           <input type="text" id="fname" name="firstname" placeholder="Your first name.."
-          <label for="lname">Last Name</label>
+          <label for="lname">Last Name <span class="req"> *</span></label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          <label for="e-mail">Email</label>
+          <label for="org">Your Organization</label>
+          <input type="text" id="org" name="organization" placeholder="Your organization..">
+          <label for="e-mail">Email <span class="req"> *</span></label>
           <input type="text" id="e-mail" name="email" placeholder="Your email..">
-          <label for="description">Message</label>
+          <label for="description">Message <span class="req"> *</span></label>
           <textarea id="description" name="description" placeholder="Describe the purpose, audience, etc.." style="height:100px"></textarea>
           <p class="form-control-static">Got a budget?</p>
           <select class="form-control">
-            <option><$400</option>
             <option><$500</option>
             <option><$800</option>
             <option><$1000</option>
             <option>$1000<</option>
           </select>
-          <div class="checkbox">
+          <div class="checkbox center-block">
             <label>
-              <input type="checkbox">I'm not a robot.
+              <input type="checkbox">I'm not a robot.<span class="req"> *</span>
             </label>
           </div>
           <input type="submit" value="Submit" class="btn-info center-block"><!-- SUBMIT -->
@@ -87,7 +90,7 @@
   <div class="row">
     <hr>
     <div class="col-sm-5 col-sm-offset-1">
-      <h2>Our Location</h2>
+      <h2>Location</h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061098107!2d-119.78797104924233!3d36.732069279133334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1522984928559" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <div class="col-sm-5 col-sm-offset-1">

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <title>CL-Portfolio</title>
 <!-- scripts -->
@@ -25,6 +25,9 @@
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+      <div class="navbar-brand">
+        <img src="img/logo.png" alt="logo" class="logo">
+      </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -38,13 +41,12 @@
           <li><a href="index.html" class="navlink active"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
           <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
           <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
-          <li><a href="contact.html" class="navlink" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Contact</i></a></li>
+          <li><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Hire Me!</i></a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-plus"></i>Follow Me<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-twitter-square fa-md" aria-hidden="true"></i> Twitter</a></li>
-              <li><a href="#" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
+              <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i> Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i> LinkedIn</a></li>
+              <li><a href="https://github.com/connielion" class="navlink"><i class="fa fa-github-square fa-md" aria-hidden="true"></i> Github</a></li>
             </ul><!--NAVBAR DROP-DOWN ENDS-->
           </li>
         </ul>
@@ -55,34 +57,36 @@
 <!--- nav bar ends -->
 
 <!--PORTFOLIO PAGE START-->
-<div class="container-fluid pfl">
+<div class="container pfl">
   <h1 class="portfolio text-center text-shadow">Portfolio</h1>
   <p class="text-center">Responsive, mobile friendly websites.</p>
   <hr>
-  <div class="row col-container"><!--col container, contain works section-->
-    <div class="col-sm-3 col">
+  <div class="row flex-container"><!--col container, contain works section-->
+    <div class="col-xs-4 port-col">
       <h2>Pet Store</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
-        <button class="btn-default pbtn works">
+        <button class="btn-danger pbtn works">
           <a target="_blank" href="https://geekwiseb2.github.io/petstore-march-2018-connielion/">Check it out!</a>
         </button>
     </div>
-    <div class="col-sm-3 col">
+
+    <div class="col-xs-4 port-col">
       <h2>Restaurant</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
-          <button class="btn-default pbtn works">
+          <button class="btn-success pbtn works">
             <a target="_blank" href="https://geekwiseb2.github.io/restaurante-july-17-connielion/">
                   Check it out!
             </a>
           </button>
     </div>
 
-    <div class="col-sm-3 col">
+    <div class="col-xs-4 port-col">
           <div class="jumbotron pjumbo works">
-            <p>Coming Soon!</p>
+            <p class="jtxt">Coming Soon!</p>
           </div>
     </div>
   </div>  <!--end col container-->
+
   <div class="row">
     <hr>
     <button type="button" class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#myModal">My Resume</button>
@@ -96,10 +100,19 @@
               <h3 class="modal-title">Connie Lai</h3>
             </div>
             <div class="modal-body">
-              <h3>Education:</h3>
-              <p>Univeristy of California, Riverside. B.S. Biology, 2017.</p>
-              <hr>
-              <h3>Experiences</h3>
+              <h3><u>Education:</u></h3>
+              <h4>Univeristy of California, Riverside. B.S. Biology, 2017.</h4>
+                <li>Basic C++.</li>
+                <hr>
+              <h4>Geekwise Academy, 2018.</h4>
+
+              <h5><u>Courses</u></h5>
+                <ol>
+                  <li>HTML5 & CSS/Git</li>
+                  <li>Mobile Friendly Websites(Bootstrap).</li>
+                  <li>ES6 Javascript.</li>
+
+                </ol>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
