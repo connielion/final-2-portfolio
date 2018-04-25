@@ -73,7 +73,7 @@ button.navbar-toggle {  /*TOGGLE  BUTTON STYLES*/
 .navlink:hover { /* HOVER ZOOM */
   color: #000;
   background-color: #000;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 .pad {
@@ -174,7 +174,7 @@ font-size: 24px;
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -215,7 +215,7 @@ color: #fff;
 /* ABOUT PAGE --------------------------*/
 
 .about {
-height: 900px;
+height: 1200px;
 padding-left: 10px;
 background-color: #fff;
 color: #878685;
@@ -239,9 +239,7 @@ line-height: 1.6;
   border-radius: 50%;
   margin-top: 40px;
 }
-.skills {
 
-}
 
 .accordion-text {
   color: #fff;
@@ -270,6 +268,17 @@ line-height: 1.6;
   height: 1400px;
   font-family: Comfortaa;
   color: #878685;
+}
+
+
+#myEmail {
+  width: 250px;
+}
+
+.copybtn {
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
 }
 
 .req {
@@ -407,7 +416,7 @@ footer {
 /* change color of body bg-color/btn color for ABOUT PAGE */
 @media only screen and (max-width: 400px) {
     footer {
-      
+
       background-color: #000;
     }
     .about {
