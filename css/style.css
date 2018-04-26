@@ -274,7 +274,7 @@ line-height: 1.6;
 /* CONTACT FORM*/
 .contactform {
   background-color: #fff;
-  height: auto;
+  min-height: 1200px;
   font-family: Comfortaa;
   color: #878685;
 }
@@ -335,6 +335,7 @@ input[type=submit]:hover {
   font-size: 20px;
   font-family: Comfortaa,cursive;
   list-style: none;
+  margin-bottom: 50px;
 }
 
 
@@ -425,8 +426,8 @@ footer {
 /* change color of body bg-color/btn color for ABOUT PAGE */
 @media only screen and (max-width: 400px) {
     footer {
-      visibility: hidden;
-      background-color: #000;
+
+      background-color: inherit;
     }
     .about {
         background-color: #000;
@@ -461,6 +462,9 @@ footer {
     }
     .btn-lg {
       margin: 10px;
+    }
+    .gmap {
+      width: 80%;
     }
 }
 
