@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lora:400,700|Raleway:500');
 
+body {
+  height: 100%;
+  width: 100%;
+}
 
-
+/* universal styling */
 .Raleway {
   font-family: 'Raleway', sans-serif;
 }
@@ -12,6 +16,10 @@
 
 .text-shadow {
   text-shadow: 2px 2px #ccc;
+}
+
+.white-border {
+  border: 2px solid #fff;
 }
 
 
@@ -76,7 +84,7 @@ button.navbar-toggle {  /*TOGGLE  BUTTON STYLES*/
   transform: scale(1.2);
 }
 
-.pad {
+.pad { //horizontal padding
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -159,10 +167,10 @@ background: linear-gradient(to right, #2cf0ad, #00bcd4);
   margin-left: 5px;
 }
 
-/* PORTFOLIO PAGE STYLING */
+/* PORTFOLIO PAGE STYLING============== */
 .pfl {
-  height: 1000px;
-  padding-top: 80px;
+  min-height: 1000px;
+  margin-top: 100px;
   color: #878685;
   font-family: Raleway;
 }
@@ -174,7 +182,7 @@ font-size: 24px;
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -209,6 +217,7 @@ color: #fff;
     /* Just keep shakin' */
     animation-iteration-count: infinite;
 }
+
 
 
 
@@ -265,7 +274,7 @@ line-height: 1.6;
 /* CONTACT FORM*/
 .contactform {
   background-color: #fff;
-  height: 1400px;
+  height: auto;
   font-family: Comfortaa;
   color: #878685;
 }
@@ -416,7 +425,7 @@ footer {
 /* change color of body bg-color/btn color for ABOUT PAGE */
 @media only screen and (max-width: 400px) {
     footer {
-
+      visibility: hidden;
       background-color: #000;
     }
     .about {
@@ -429,7 +438,7 @@ footer {
     }
     .navlink {
       transition: none;
-      min-width: 300px;
+
       background-color: #fff;
       color: #000;
     }
@@ -447,7 +456,57 @@ footer {
     .skill-row {
       background-color: #000;
     }
+    .pjumbo {
+      margin-top: 20px;
+    }
+    .btn-lg {
+      margin: 10px;
+    }
+}
 
+@media only screen and (min-width: 1100px)
+{
+  footer {
+    position: static;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px)
+{
+  .copybtn {
+    visibility: hidden;
+  }
+  .navlink {
+    transition: none;
+    max-width: 900px;
+    background-color: #fff;
+    color: #000;
+    padding-right: 30px;
+  }
+  .navlink:hover { /* HOVER ZOOM */
+    color: #000;
+    background-color: #000;
+    transform: none;
+  }
+  .hire {
+    background-color: #fff;
+    color: #000;
+    transition: none;
+    margin-right: -10px;
+  }
+  .btn-lg {
+    margin: 10px;
+  }
+  .pjumbo {
+    margin-top: 10px;
+  }
 
 }
 

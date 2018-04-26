@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
 <title>CL-Portfolio</title>
 <!-- scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -25,9 +25,11 @@
 <nav class="navbar navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+      <!--logo-->
       <div class="navbar-brand">
-        <img src="img/logo.png" alt="logo" class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo" class="logo img-responsive"></a>
       </div>
+
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -37,16 +39,16 @@
     </div>
     <div>
       <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-        <ul class="nav navbar-nav text-center">
-          <li><a href="index.html" class="navlink active"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
-          <li><a href="portfolio.html" class="navlink" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
-          <li><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
+        <!--NAV BAR LINKS-->
+        <ul class="nav navbar-nav ">
+          <li class = "pad"><a href="index.html" class="navlink" data-toggle="tooltip" title="HOME SWEET HOME!" data-placement="bottom"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+          <li class = "pad"><a href="portfolio.html" class="navlink active" data-toggle="tooltip" title="See My Works!" data-placement="bottom"><i class="fa fa-folder-open" aria-hidden="true"> Portfolio</i></a></li>
+          <li class = "pad"><a href="about.html" class="navlink" data-toggle="tooltip" title="Who am I?" data-placement="bottom"><i class="fa fa-user" aria-hidden="true"> About</i></a></li>
           <li class = "pad"><a href="contact.html" class="navlink hire" data-toggle="tooltip" title="Call me Maybe?" data-placement="bottom"><i class="fa fa-envelope" aria-hidden="true"> Contact</i></a></li>
-
-          <!--SOCIAL MEDIA ICONS-->
-          <li><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink" data-toggle="tooltip" title="Facebook" data-placement="bottom"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink" data-toggle="tooltip" title="LinkedIn" data-placement="bottom"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/connielion" class="navlink" data-toggle="tooltip" title="GitHub" data-placement="bottom"><i class="fa fa-github-square fa-md" aria-hidden="true"></i></a></li>
+          <!--social media icons-->
+          <li class = "pad"><a href="https://www.facebook.com/?ref=tn_tnmn" class="navlink white-border" data-toggle="tooltip" title="Facebook" data-placement="bottom"><i class="fa fa-facebook-square fa-md" aria-hidden="true"></i></a></li>
+          <li class = "pad"><a href="https://www.linkedin.com/in/connie-lai-140266b7/" class="navlink white-border" data-toggle="tooltip" title="LinkedIn" data-placement="bottom"><i class="fa fa-linkedin-square fa-md" aria-hidden="true"></i></a></li>
+          <li class = "pad"><a href="https://github.com/connielion" class="navlink white-border" data-toggle="tooltip" title="GitHub" data-placement="bottom"><i class="fa fa-github-square fa-md" aria-hidden="true"></i></a></li>
 
         </ul>
       </div>
@@ -58,10 +60,10 @@
 <!--PORTFOLIO PAGE START-->
 <div class="container pfl">
   <h1 class="portfolio text-center text-shadow">Portfolio</h1>
-  <p class="text-center">Responsive, mobile friendly websites.</p>
+  <p class="text-center">My past and current projects.</p>
   <hr>
   <div class="row flex-container"><!--col container, contain works section-->
-    <div class="col-xs-4 port-col">
+    <div class="col-xs-10 col-md-4 port-col">
       <h2>Pet Store Site</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
         <button class="btn-danger pbtn works">
@@ -69,7 +71,7 @@
         </button>
     </div>
 
-    <div class="col-xs-4 port-col">
+    <div class="col-xs-10 col-md-4 port-col">
       <h2>Restaurant</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, animi, aut. Rem minus maiores reiciendis, ipsa, architecto est facilis praesentium.</p>
           <button class="btn-success pbtn works">
@@ -79,16 +81,28 @@
           </button>
     </div>
 
-    <div class="col-xs-4 port-col">
+    <div class="col-xs-10 col-md-4 port-col">
           <div class="jumbotron pjumbo works">
             <p class="jtxt">Coming Soon!</p>
           </div>
+    </div>
+    <div class="row flex-container">
+      <div class="col-xs-10 col-md-12">
+<hr>
+          <h2>Furniture</h2>
+          <h4 class="strong black-text">Work in progress...</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi explicabo fuga nam, incidunt maiores aspernatur quod a harum, ad facilis accusamus optio tenetur molestiae. Numquam quidem accusantium velit dolorum, nam.</p>
+          <button class="btn-warning pbtn works">
+            <a href="https://connielion.github.io/furniture2018/#" target="_blank">Check it out!</a>
+          </button>
+      </div>
     </div>
   </div>  <!--end col container-->
 
   <div class="row">
     <hr>
-    <button type="button" class="btn btn-info btn-lg center-block" data-toggle="modal" data-target="#myModal">My Resume</button>
+    <!--MODAL START-->
+    <button type="button" class="btn modalbtn btn-info btn-lg center-block" data-toggle="modal" data-target="#myModal">My Resume</button>
       <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
